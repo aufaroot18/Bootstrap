@@ -1,0 +1,27 @@
+body {
+	font-family: "Lora", serif;
+}
+.jumbotron {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/laptop.jpeg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	position: relative;
+}
+.jumbotron .container {
+	width: 60%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.container h3, .container h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.container h3, .container h1, .container p {
+	padding: 10px 0px;
+}
