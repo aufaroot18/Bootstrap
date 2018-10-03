@@ -34,3 +34,22 @@ body {
 	color: black;
 	font-size: 22px;
 }
+
+/**/
+#services, #portfolio, #about, #contact {
+	padding: 50px 0px;
+}
+
+h1 {
+	padding-bottom: 50px;
+}
+
+/*services*/
+#services .card {
+	border: none;
+}
+#services img {
+	width: 30%;
+	margin: 0 auto;
+	border-radius: 50%;
+}
