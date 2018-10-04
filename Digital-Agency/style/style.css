@@ -1,5 +1,8 @@
 body {
-	font-family: "Lora", serif;
+	font-family: "Lora", serif;	
+}
+p {
+	text-align: justify;
 }
 .jumbotron {
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/laptop.jpeg");
@@ -52,4 +55,13 @@ h1 {
 	width: 30%;
 	margin: 0 auto;
 	border-radius: 50%;
+}
+
+/*BG #f3f3f3*/
+
+/*Portfolio*/
+#portfolio img {
+	margin: 0px;
+	width: 100%;
+	margin-bottom: 20px;
 }
