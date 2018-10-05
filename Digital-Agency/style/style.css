@@ -1,11 +1,27 @@
+/*
+example: https://www.mint.com/
+ */
+
 body {
-	font-family: "Lora", serif;	
+	font-family: "Lora", serif;
 }
 p {
-	text-align: justify;
+	text-align: justify;	
+}
+h1 {
+	font-weight: 600;
+}
+#services, #portfolio, #about, #contact {
+	padding: 40px 0px;
+}
+#services h1, #portfolio h1, #about h1, #contact h1 {
+	margin-bottom: 40px;
+}
+#services p, #portfolio p, #about p, #contact p {
+	line-height: 2;
 }
 .jumbotron {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/laptop.jpeg");
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/laptop.jpeg");
 	background-size: cover;
 	background-position: center;
 	height: 500px;
@@ -20,31 +36,29 @@ p {
 	transform: translate(-50%,-50%);
 	color: #fff;
 }
-#header h3, #header h1 {
-	font-weight: 600;
+#header h1 {
+	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
-#header h3, #header h1, #header p {
+#header h1, #header p {
 	padding: 10px 0px;
+}
+#header p {
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+	font-size: 20px;
 }
 
 /*Navbar*/
 .navbar {
-	padding: 20px 50px;
+	padding: 10px 30px;
 }
-.navbar a {
-	color: black;
-	font-size: 22px;
-}
-
-/**/
-#services, #portfolio, #about, #contact {
-	padding: 50px 0px;
-}
-
-h1 {
-	padding-bottom: 50px;
+#navbar a {
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
 }
 
 /*services*/
@@ -60,8 +74,31 @@ h1 {
 /*BG #f3f3f3*/
 
 /*Portfolio*/
+#portfolio {
+	background-color: #f3f3f3;
+}
 #portfolio img {
 	margin: 0px;
 	width: 100%;
 	margin-bottom: 20px;
+}
+
+/*About*/
+#about {
+	width: 50%;
+}
+
+/*Contact*/
+#contact {
+	background-color: #f3f3f3;
+}
+
+/*Footer*/
+footer p {
+	margin: 0;
+}
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px 30px;
 }
