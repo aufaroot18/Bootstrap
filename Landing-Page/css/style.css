@@ -1,0 +1,12 @@
+.navbar {
+	background-color: #563D7C;
+	font-size: 1.2em;
+}
+
+.navbar .navbar-collapse .navbar-nav li a {
+	color: #c4c4c4;
+}
+
+.navbar .navbar-collapse .navbar-nav li a:hover {
+	color: #fff;
+}
