@@ -1,6 +1,6 @@
 # Bootstrap
 
-List pProject made by me.
+List Project made by me.
 
 - [x] Digital Agency.
 - [ ] Restaurant.
