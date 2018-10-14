@@ -1,3 +1,5 @@
+/*Navbar*/
+
 .navbar {
 	background-color: #563D7C;
 	font-size: 1.2em;
@@ -10,6 +12,8 @@
 .navbar .navbar-collapse .navbar-nav li a:hover {
 	color: #fff;
 }
+
+/*Carousel*/
 
 .carousel-item img {
 	width: 100%;
@@ -29,6 +33,19 @@
 	background-color: #563D7C;
 	border: 2px solid #fff;
 }
+
+/*Front End Technology*/
+
+.container {
+	margin: 4% auto;
+}
+
+.container .row img {
+	max-width: 200px;
+	margin: 5% auto;
+}
+
+/*Mobile Style*/
 
 @media screen and (max-width: 767px) {
 	.carousel-caption {
@@ -52,4 +69,17 @@
 		background-color: #563D7C;
 		border: 2px solid #fff;
 	}*/
+
+	.container h1 {
+		font-size: 1.7em;
+	}
+
+	.container h4 {
+		font-size: 1.1em;
+	}
+
+	.container .row img {
+		max-width: 100px;
+		margin: 5% auto;
+	}
 }
