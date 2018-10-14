@@ -1,3 +1,7 @@
+p {
+	text-align: justify;
+}
+
 /*Navbar*/
 
 .navbar {
@@ -40,9 +44,15 @@
 	margin: 4% auto;
 }
 
-.container .row img {
+#front img {
 	max-width: 200px;
 	margin: 5% auto;
+}
+
+/*Trend*/
+#trend img {
+	width: 100%;
+	padding-top: 0;
 }
 
 /*Mobile Style*/
@@ -74,12 +84,21 @@
 		font-size: 1.7em;
 	}
 
+	.container h2 {
+		font-size: 1.5em;
+	}
+
 	.container h4 {
 		font-size: 1.1em;
 	}
 
-	.container .row img {
-		max-width: 100px;
+	#front img {
+		width: 100px;
+		margin: 5% auto;
+	}
+
+	#trend img {
+		max-width: 100%;
 		margin: 5% auto;
 	}
 }
