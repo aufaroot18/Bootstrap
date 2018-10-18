@@ -2,6 +2,10 @@ p {
 	text-align: justify;
 }
 
+.container {
+	padding: 20px;
+}
+
 /*Navbar*/
 
 .navbar {
@@ -45,14 +49,24 @@ p {
 }
 
 #front img {
-	max-width: 200px;
+	max-width: 150px;
 	margin: 5% auto;
 }
 
 /*Trend*/
 #trend img {
 	width: 100%;
-	padding-top: 0;
+}
+
+/*Framework*/
+#framework h2 {
+	margin-bottom: 50px;
+}
+#framework img {
+	max-width: 70%;
+}
+#framework .mobile img {
+	display: none;
 }
 
 /*Mobile Style*/
@@ -94,11 +108,21 @@ p {
 
 	#front img {
 		width: 100px;
-		margin: 5% auto;
 	}
 
 	#trend img {
 		max-width: 100%;
-		margin: 5% auto;
+	}
+
+	#framework h4 {
+		font-size: 1.6em;
+	}
+	#framework .mobile img {
+		max-width: 50%;
+		display: inline;
+		margin: 0 auto;
+	}
+	#framework .desktop img {
+		display: none;
 	}
 }
