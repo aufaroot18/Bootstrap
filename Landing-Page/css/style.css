@@ -1,4 +1,4 @@
-p {
+#trend p, #framework p {
 	text-align: justify;
 }
 
@@ -67,6 +67,24 @@ p {
 }
 #framework .mobile img {
 	display: none;
+}
+
+/*Footer*/
+footer {
+	background-color: #563D7C;
+	color: #fff;
+	padding: 3%;
+}
+.nav .nav-item a {
+	padding-top: 0;
+}
+footer a {
+	color: white;
+	padding: 0;
+}
+
+footer a:hover {
+	color: #D5D5D5;
 }
 
 /*Mobile Style*/
