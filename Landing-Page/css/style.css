@@ -69,6 +69,11 @@
 	display: none;
 }
 
+#framework .desktop {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 /*Footer*/
 footer {
 	background-color: #563D7C;
