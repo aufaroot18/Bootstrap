@@ -69,9 +69,15 @@
 	display: none;
 }
 
-#framework .desktop {
+/*#framework .desktop {
 	margin-top: auto;
 	margin-bottom: auto;
+}*/
+
+#framework .desktop img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 /*Footer*/
