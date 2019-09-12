@@ -1,20 +1,8 @@
 # Bootstrap
 
-List Project made by me.
+Landing Page Website for Frontend Information.
 
-- [x] Digital Agency.
-- [ ] Restaurant.
-- [ ] Wedding.
-- [ ] Travel.
-- [ ] Hotel.
-- [ ] Landing Page.
-- [ ] Profil.
-- [ ] News.
-- [ ] Education.
-- [ ] 404 Not Found.
-- [ ] Event.
-- [ ] About Us.
-- [ ] Photography.
+Landing page website that shows information about Frontend Developer.
 
 Inpiration:
 
